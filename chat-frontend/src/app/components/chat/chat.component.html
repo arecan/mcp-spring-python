@@ -1,0 +1,56 @@
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8">
+      <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+
+        <!-- Header -->
+        <div class="card-header bg-purple text-white d-flex align-items-center gap-2">
+          <i class="bi bi-robot fs-4"></i>
+          <h5 class="mb-0">AI Chat Assistant</h5>
+        </div>
+
+        <!-- Chat Body -->
+        <div class="card-body p-0 bg-light-purple">
+          <div class="chat-container" #chatContainer>
+            <div
+              *ngFor="let message of messages"
+              class="message"
+              [ngClass]="message.isUser ? 'user-message' : 'ai-message'">
+              <strong>{{ message.isUser ? 'Vous' : 'AI' }} :</strong>
+              <span *ngIf="message.isUser">{{ message.content }}</span>
+              <div *ngIf="!message.isUser" [innerHTML]="parseMarkdown(message.content)"></div>
+            </div>
+          </div>
+
+          <div *ngIf="isTyping" class="typing-indicator ps-3 pb-2">
+            <i class="bi bi-three-dots fs-5 text-muted me-1"></i> <em>AI est en train d'écrire...</em>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="card-footer bg-white">
+          <form (ngSubmit)="sendMessage()" class="d-flex flex-column flex-md-row gap-2">
+            <textarea
+              [(ngModel)]="newMessage"
+              name="messageInput"
+              class="form-control message-input flex-grow-1"
+              rows="2"
+              placeholder="Écrivez votre message ici..."
+              (keydown)="onKeyDown($event)"
+              [disabled]="isLoading"
+              required>
+            </textarea>
+            <button
+              type="submit"
+              class="btn btn-purple"
+              [disabled]="isLoading || !newMessage.trim()">
+              <i class="bi" [ngClass]="isLoading ? 'bi-hourglass-split' : 'bi-send'"></i>
+            </button>
+          </form>
+          <small class="text-muted d-block mt-2">Appuyez sur <kbd>Entrée</kbd> pour envoyer, <kbd>Maj + Entrée</kbd> pour une nouvelle ligne</small>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
