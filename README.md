@@ -20,6 +20,13 @@
 # Swagger Test
 ![image](https://github.com/user-attachments/assets/b250bb4b-1646-450d-9565-3dfc233d97b3)
 
+# User Interface
+![image](https://github.com/user-attachments/assets/21b25fe8-1ce9-435d-9583-86ea4d2a36dd)
+
+![image](https://github.com/user-attachments/assets/8425a42f-f418-4fd9-aacf-a0f473875670)
+
+
+
 
 
 
