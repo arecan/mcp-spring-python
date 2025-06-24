@@ -7,9 +7,14 @@
 
 # MCP CLIENT
 ![image](https://github.com/user-attachments/assets/a09ea20f-db44-473f-8192-54e142c6f0e3)
+![image](https://github.com/user-attachments/assets/6deee9b6-a697-4039-bc34-4fee0febe02e)
+![image](https://github.com/user-attachments/assets/39c69d4f-64c8-444a-988d-8b25f615f944)
+
 
 # Python-MCP-Server
 ![image](https://github.com/user-attachments/assets/c8192e36-7f10-4e25-a735-24b7a7277f90)
+![image](https://github.com/user-attachments/assets/13df0a50-146b-4170-9627-38015aba20ae)
+
 
 # FrontEnd (Angular)
 ![image](https://github.com/user-attachments/assets/d6d8ef38-1f6a-4cac-abc7-4ebd1d56abb7)
