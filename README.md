@@ -17,6 +17,9 @@
 # Postman Test
 ![WhatsApp Image 2025-06-22 à 20 20 35_cc09ed79](https://github.com/user-attachments/assets/8990c748-8277-4d90-885a-3465ec999e8e)
 
+# Swagger Test
+![image](https://github.com/user-attachments/assets/b250bb4b-1646-450d-9565-3dfc233d97b3)
+
 
 
 
