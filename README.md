@@ -8,6 +8,7 @@
 # MCP CLIENT
 ![image](https://github.com/user-attachments/assets/a09ea20f-db44-473f-8192-54e142c6f0e3)
 ![image](https://github.com/user-attachments/assets/6deee9b6-a697-4039-bc34-4fee0febe02e)
+###### intégrer un serveur MCP NodeJS file_system de type STDIO /// Développer et intégrer un serveur MCP python de type STDIO
 ![image](https://github.com/user-attachments/assets/39c69d4f-64c8-444a-988d-8b25f615f944)
 
 
